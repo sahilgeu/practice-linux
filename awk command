@@ -1,0 +1,8 @@
+awk '{print} filename= print all content of file
+awk '{print $0}' file1= it will print all content
+awk '{print $1}' it will print contents of column1
+awk '{print $4, $5}' it will print contents of column 4 and 5
+awk '{print $NF}' it will the last column ; NF=NO FO FIELDS
+awk '{print NR, $0}' it will print line no along with data
+awk '/name/{print}' it will print all conntents related to name
+awk 'NR==6{print}' it will all contents of line 6
