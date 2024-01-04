@@ -1,0 +1,9 @@
+INODE- store metadata of a file - who created the file, when file was creted
+df -i shows inodes related to a file system
+ls -li show inode related to a file
+ls -lia for hidden files
+Hard and soft links- used to create reference to a file(mechanism by which we can access a file)
+Hard link - basically increases reference count of a file, inode no and permission are same for both the links also a change in one file will reflect change in the link and deleting any file will not have any effect on either
+How to creae hard link- ln original file new file
+Soft Link-acts as a shortcut, inoode,permission all are different also a change in one file will reflect change in the link and if we delete the original file soft link will not work
+How to create soft link- ln -s original file new file
