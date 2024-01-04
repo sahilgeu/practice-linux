@@ -1,0 +1,11 @@
+df-disk free
+  It tells direcorty on whih file system is mounted ,disk space used and disk space availble
+  df- show file system
+    df -a show all file system
+    df -h show in human readable form in power of 1024 ie mb gb
+    df -H in human readable form in power of 1000
+    df -t tmpfs show info related to a particular file
+    df -x tmpfs it will exclude particular file
+
+
+    du-
