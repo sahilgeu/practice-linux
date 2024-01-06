@@ -1,0 +1,17 @@
+  gzip=used to compress a file
+  gzip filename
+  zcat or zmore= used to see contents of compressed file- zcat filename.gz
+  gunzip filename= it will uncompress file
+  we also crete multiple file compression
+  gzip file1 file2 file3 file4 
+  tar- tape archive (bundle of files)
+  tar cvf file.tar file1 file2 
+  c= crete
+  v= vervose(it will show us the content)
+  f= to give name to file
+  tar xvf file.tar extract the files
+   x- extract
+  tar tvf file.tar- list the files
+  
+    
+  
