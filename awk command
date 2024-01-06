@@ -6,3 +6,8 @@ awk '{print $NF}' it will the last column ; NF=NO FO FIELDS
 awk '{print NR, $0}' it will print line no along with data
 awk '/name/{print}' it will print all conntents related to name
 awk 'NR==6{print}' it will all contents of line 6
+awk ' NR==1 , NR==6 {print NR, $0}' it will print the content form line no 1 to 6 along with line number
+awk ' NF==0 {print NR}' it will show us if there is empty line in our file
+awk '/word1|word2|word4/ {print $0}' it will helps us to search a file with mulitple words
+awk 'BEGIN{IGNORECASE=1} /word/ {print}' it wil ignore the case-sensitive
+awk ' $3 ~ /e/ {print $0}' it will that column where e is present
