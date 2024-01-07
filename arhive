@@ -1,0 +1,8 @@
+tar- tape archive
+tar cvf dir.tar filenames
+c-create
+v-verbos
+f-to provide a name
+tar xvf dir.tar
+x= extract
+cvxf
